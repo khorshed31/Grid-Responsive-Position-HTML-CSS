@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Position</title>
+        <style>
+            /*.box-one{*/
+            /*    height: 300px;*/
+            /*    width: 500px;*/
+            /*    background-color: green;*/
+            /*    position: absolute;*/
+            /*    top: 0px;*/
+            /*}*/
+            /*.box-two{*/
+            /*    height: 200px;*/
+            /*    width: 200px;*/
+            /*    border-radius: 50%;*/
+            /*    background-color: red;*/
+            /*    position: relative;*/
+            /*    top: 0px;*/
+            /*}*/
+
+            .div-one{
+                height: 300px;
+                width: 300px;
+                background-color: darkgreen;
+                border-radius: 20px;
+                margin: 100px;
+                /*transform: scale(1);*/
+                /*transform: rotate(0deg);*/
+                transform: rotateY(0deg);
+                transition: 1s;
+            }
+            .div-one:hover{
+                /*border-radius: 0px;*/
+                /*transform: scale(1.5);*/
+                /*transform: rotate(45deg);*/
+                transform: rotateY(360deg);
+
+            }
+        </style>
+    </head>
+    <body>
+<!--        <div class="box-one">-->
+<!--            <div class="box-two"></div>-->
+<!--        </div>-->
+
+        <div class="div-one"></div>
+    </body>
+</html>
